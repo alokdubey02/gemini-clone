@@ -32,7 +32,7 @@ export default function LoginPage() {
   const router = useRouter();
   const [count, setCount] = useState(30);
 
-  const handleLogin = (data: LoginForm) => {
+  const handleLogin = () => {
     setOtpSent(true);
     setCount(30);
     setOtp("");
